@@ -1,8 +1,5 @@
-CircuitPython Kernel
+CircuitPython Jupyter Kernel
 ====================
-
-.. image:: https://cdn-learn.adafruit.com/guides/images/000/002/051/medium310/Untitled-3.png?1528919538
-
 
 .. image:: https://readthedocs.org/projects/circuitpython-kernel/badge/?version=latest
     :target: https://circuitpython-kernel.readthedocs.io/en/latest/?badge=latest
@@ -19,15 +16,14 @@ CircuitPython Kernel
     :alt: Build Status
 
 
-The CircuitPython Kernel is a `Jupyter Kernel <https://jupyter.org/>`_ designed to interact with Adafruit boards
+The CircuitPython Jupyter Kernel is a `Jupyter Kernel <https://jupyter.org/>`_ designed to interact with Adafruit boards
 running `CircuitPython <https://github.com/adafruit/circuitpython>`_ from within a Jupyter Notebook.
 
 
 Status
 ------
 
-This project's status is experimental. It has been tested with CircuitPython (SAMD) boards and the
-Feather HUZZAH (ESP8266) with CircuitPython 3.x.
+This project's status is experimental and is compatible with CircuitPython SA
 
 It may break, and if it does, please file an
 `issue on this repository <https://circuitpython-kernel.readthedocs.io/en/latest/contributing.html>`__.
@@ -50,17 +46,11 @@ Designed for CircuitPython (SAMD21 and SAMD51)
 -  `Adafruit ItsyBitsy M4 Express <https://www.adafruit.com/product/3800>`__
 
 
-Other Adafruit Boards
-~~~~~~~~~~~~~~~~~~~~~
-
--  `Adafruit Feather HUZZAH ESP8266 <https://www.adafruit.com/products/2821>`__
-
-
 Download
 --------
 
 Official .zip files are available through the
-`latest GitHub releases <https://github.com/adafruit/circuitpython_kernel/releases>`__.
+`latest GitHub releases <https://github.com/adafruit/circuitpython_jupyter_kernel/releases>`__.
 
 
 Install
@@ -77,8 +67,8 @@ Optional::
 
 CircuitPython kernel::
 
-    cd circuitpython_kernel/
-    python3 setup.py install; python3 -m circuitpython_kernel.install
+    cd circuitpython_jupyter_kernel/
+    python3 setup.py install; python3 -m circuitpython_jupyter_kernel.install
 
 Then run with one of::
 
